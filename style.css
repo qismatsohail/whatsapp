@@ -1,55 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
 }
+
 /*in this section are divied with width and height and color*/
-#WHATSAPPWEB{
+#WHATSAPPWEB {
     width: 100%;
     height: 100vh;
     background-color: #FFFFFF;
     float: left;
 }
-#FEATURES{
+
+#FEATURES {
     width: 100%;
-    height: 150vh;
-    background-color: blue;
+    height: 125vh;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+#DOWNLOAD {
+    width: 100%;
+    height: 32.5vh;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+#SECURITY {
+    width: 100%;
+    height: 46vh;
+    background-color: #273443;
     float: left;
 }
-#DOWNLOAD{
+
+#HELPCENTER {
     width: 100%;
-    height: 100vh;
-    background-color: green;
-    float: left;
-}
-#SECURITY{
-    width: 100%;
-    height: 100vh;
-    background-color: yellow;
-    float: left;
-}
-#HELPCENTER{
-    width: 100%;
-    height: 100vh;
-    background-color: violet;
-    float: left;
-}
-#EN{
-    width: 100%;
-    height: 100vh;
-    background-color: black;
+    height: 12vh;
+    background-color: #000000;
     float: left;
 }
 /*navbar items are moved and incline block*/
-.navbar_menu{
+.navbar_menu {
     float: right;
 }
-.navbar_menu ul li{
+
+.navbar_menu ul li {
     display: inline-block;
 }
-.navbar_menu ul li a{
+
+.navbar_menu ul li a {
     color: white;
     position: relative;
     bottom: 20px;
@@ -60,47 +61,54 @@
     font-weight: 400;
 }
 
-.fa-globe{
+.fa-globe {
     margin: 15px;
     position: relative;
     top: 0;
     right: 20px;
 }
+
 /*navbar height and width is given with color*/
-#WHATSAPPWEB .navbar{
+#WHATSAPPWEB .navbar {
     width: 100%;
     height: 12vh;
     background-color: #128C7E;
 }
+
 /*navbar image*/
-.navbar_img img{
+.navbar_img img {
     position: relative;
     top: 25px;
     left: 235px;
     cursor: pointer;
 }
-.navbar{
+
+.navbar {
     position: fixed;
     z-index: 999;
 }
+
 /*section 1*/
-.s1{
+.s1 {
     margin-top: 100px;
     color: #1C1E21;
 }
-.s1 .left{
+
+.s1 .left {
     background-color: white;
     width: 45%;
     margin-left: 40px;
     height: 86vh;
     float: left;
 }
-.s1 .right{
+
+.s1 .right {
     width: 45%;
     height: 86vh;
     float: right;
 }
-.left_heading1 h1{
+
+.left_heading1 h1 {
     color: #1C1E21;
     text-align: center;
     position: relative;
@@ -109,13 +117,15 @@
     font-size: 37px;
     font-weight: 400;
 }
-.left_heading1 .reliable h1{
+
+.left_heading1 .reliable h1 {
     font-size: 37px;
     top: 120px;
     left: 130px;
     color: #1C1E21;
 }
-.left_paragraph1{
+
+.left_paragraph1 {
     color: #1C1E21;
     font-size: 18px;
     position: relative;
@@ -124,7 +134,8 @@
     line-height: 25px;
     font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.left_paragraph2{
+
+.left_paragraph2 {
     color: #1C1E21;
     font-size: 16px;
     position: relative;
@@ -133,64 +144,249 @@
     line-height: 20px;
     font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.left_device{
+
+.left_device {
     position: relative;
     top: 222px;
     left: 313px;
     line-height: 40px;
     font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.left_device a{
+
+.left_device a {
     color: #128C7E;
     font-size: 18px;
 }
-.android .fa-android{
+
+.android .fa-android {
     margin: 10px;
 }
-.iphone .fa-apple{
+
+.iphone .fa-apple {
     margin: 12px;
 }
-.mac .fa-desktop{
+
+.mac .fa-desktop {
     margin: 10px;
 }
-.left_device .fa-greater-than{
+
+.left_device .fa-greater-than {
     font-size: 10px;
     position: relative;
     top: 0;
     bottom: 0;
     left: 10px;
 }
-.s1 .right_img img{
+
+.s1 .right_img img {
     max-width: 303px;
     height: auto;
     position: relative;
     top: 45px;
 }
+
 /*section 2
 #####################################################################*/
-.s2{
-    margin-top: 105px;
-    color: yellow;
+.s2 {
+    margin-top: 30px;
+    color: #1C1E21;
 }
-.s2 .left{
-    color: yellow;
+
+.s2 .left {
+    background-color: #D8E8EA;
     width: 46.4%;
     height: 121vh;
     float: left;
-    border: 1px solid black;
     margin-left: 40px;
 }
-.s2 .right{
-    color: yellow;
+
+.s2 .right {
     width: 46.4%;
-    height: 80vh;
-    float: right; 
-    border: 1px solid black;
+    height: 121vh;
+    float: right;
+    background-color: #E7F0E4;
     margin-right: 40px;
 }
-.s2 .left_phone img{
-    margin-top: 310px;
+.s2 .section2_button{
+    background-color: yellow;
+}
+
+.s2 .left_phone img {
+    margin-top: 265px;
     margin-left: 160px;
     max-width: 54%;
     height: auto;
+}
+
+.left .left_heading_1 h1 {
+    font-size: 32px;
+    color: #1c1e21;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 80px;
+    left: 162px;
+}
+
+.left .left_paragraph_1 p {
+    font-size: 18px;
+    color: #1c1e21;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 120px;
+    left: 2px;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 25px;
+}
+
+.left .left_paragraph_2 {
+    font-size: 18px;
+    color: #1c1e21;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: relative;
+    top: 157px;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 25px;
+}
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 345px;
+    height: 345px;
+    background: #77D7C8;
+    position: relative;
+    top: 90px;
+    left: 175px;
+}
+.right_container{
+    text-align: center;
+    text-align-last: center;
+    position: relative;
+    top: 151px;
+}
+.right_container .right_heading_1 h3{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+    position: relative;
+    top: 0;
+    right: 15px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.right_container .right_heading_2 h1{
+    width: 100%;
+    font-weight: 700;
+    font-size: 33px;
+    height: auto;
+    padding: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.right_container .right_paragraph_1 p{
+    width: 100%;
+    height: auto;
+    line-height: 26px;
+    font-size: 18px;
+    position: relative;
+    bottom: 8px;
+    right: 25px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+/*setion 3 started from here*/
+#DOWNLOAD .section2_button h1{
+    position: relative;
+    top: 66px;
+    left: 44.5%;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #128C7E;
+    border-radius: 20px 20px;
+    width: 200px;
+    padding: 20px;
+    word-spacing: 2px;
+    margin: -10px;
+    text-align: center;
+    color: #128C7E;
+}
+/*SECTION 3 CSS START FROM HERE*/
+#SECURITY .s3_sections {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 200px 100px 100px 100px;
+    color: white;
+    font-size: 18px;
+    margin-top: 87px;
+    line-height: 30px;
+    
+}
+#SECURITY .s3_sections .whatsapp a{
+    color: white;
+    position: relative;
+    top: 0;
+    left: 237px;
+}
+#SECURITY .s3_sections .company a{
+    color: white;
+    position: relative;
+    top: 0;
+    left: 300px;
+}
+#SECURITY .s3_sections .downloads a{
+    color: white;
+    position: relative;
+    top: 0;
+    left: 460px;
+}
+#SECURITY .s3_sections .help a{
+    color: white;
+    position: relative;
+    top: 0;
+    left: 630px;
+}
+/*section 4 started*/
+.s4_left .s4_heading_1 h2{
+    color: white;
+    /*border: 1px solid red;*/
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.s4_right .s4_heading_2 a{
+    font-size: 18px;
+    color: white;
+    /*border: 1px solid green;*/
+    width: 20%;
+    height: 20px;
+    text-align: center;
+    float: right;
+}
+.s4_right .s4_heading_2 a{
+    color: white;
+}
+.s4_right .s4_heading_2 a .fa-greater-than{
+    color: white;
+    position: relative;
+    top: 0;
+    left: 10px;
+    font-size: 10px;
+}
+.s4_heading_1 h2{
+    position: relative;
+    top: 40px;
+    font-size: 19px;
+    left: 187px;
+}
+.s4_heading_2 a{
+    position: relative;
+    top: 40px;
+    font-size: 19px;
+    right: 160px;
 }
